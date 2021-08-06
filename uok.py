@@ -13,7 +13,7 @@ print('''
 	''')
 on = 0
 
-path = ('/home/h1t0p/Desktop/H1/chargepoint/http_new_sub.txt')
+path = input('Path to file: ')
 with open(path) as n:
 	lines = [l.rstrip() for l in n]
 	for urls in lines:
